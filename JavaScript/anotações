@@ -1,0 +1,15 @@
+BOM - Browser Object Model
+DOM - Document Objetc Model
+var nome - form.elements["seu nome"].      ou let
+
+//Parecido com C
+//Comandos Case Sensitive
+
+Declaração de  objeto: let pessoa1 = {nome: ´joao´};
+
+//valores podem mudar durante execução pois (dinamicamente tipado) - parece caoticamente divertido
+//processamento assincrono
+//Programação Imperativa, Orientada a objeto e Funcional
+//usar ; mesmo que n seja necessario
+//Professora flaou sobre não usar ; sempre e mostrou um exemplo de erro q n faz sentido nenhum
+
