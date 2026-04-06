@@ -11,5 +11,9 @@ Declaração de  objeto: let pessoa1 = {nome: ´joao´};
 //processamento assincrono
 //Programação Imperativa, Orientada a objeto e Funcional
 //usar ; mesmo que n seja necessario
-//Professora flaou sobre não usar ; sempre e mostrou um exemplo de erro q n faz sentido nenhum
+//Professora falou sobre não usar ; sempre e mostrou um exemplo de erro q n faz sentido nenhum
 
+<script src="UsoExterno.js></script>
+<script>document.write("Essa é uma forma de usar JavaScript inline no body")</script>
+//colocar link do JS no final da pagina pois se quebrar, o HTML é executado
+//JavaScript pode ser usado inline ou como arquivo externo
