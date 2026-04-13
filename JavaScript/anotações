@@ -13,7 +13,20 @@ Declaração de  objeto: let pessoa1 = {nome: ´joao´};
 //usar ; mesmo que n seja necessario
 //Professora falou sobre não usar ; sempre e mostrou um exemplo de erro q n faz sentido nenhum
 
-<script src="UsoExterno.js></script>
+<script src="UsoExterno.js"></script>
 <script>document.write("Essa é uma forma de usar JavaScript inline no body")</script>
 //colocar link do JS no final da pagina pois se quebrar, o HTML é executado
 //JavaScript pode ser usado inline ou como arquivo externo
+
+algumas palavras são reservadas e não podem ser usadas como nome de variavel.
+
+if(5=="5") - igual - valor igual
+if(5==="5") - extritamente igual - valor e tipo
+
+ver operadores bit a bit
+
+? operador condicional 
+delete é um operador foda
+this igual a versão no java, se refere ao objeto atual
+void mesma coisa
+
