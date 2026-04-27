@@ -32,6 +32,16 @@ void mesma coisa
 
 new é como objeto, sem new é criação literal
 
+rever interpolação de string  // crase `` é usada como inicio e fim de interpolação por exemplo: alert(`num1:$(num1) num2:$(num2)`);
+
+document.write reseta a pagina e não é muito utilzado
+geralmente se usa inner html e console.log (console.log pra visão de dev)
+
+existem funções anonimas // exemplo: let soma = function (numero1, numero2){ return numero1 + numero2};   soma chama a função 
+existem funções de flecha //olhar slides
+
+ficar de olho em arguments
+
 let numero1 = new string("joooo") vai dar errado //rever isso
 
 
