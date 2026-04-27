@@ -30,3 +30,8 @@ delete é um operador foda
 this igual a versão no java, se refere ao objeto atual
 void mesma coisa
 
+new é como objeto, sem new é criação literal
+
+let numero1 = new string("joooo") vai dar errado //rever isso
+
+
