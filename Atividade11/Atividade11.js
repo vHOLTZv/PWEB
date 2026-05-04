@@ -77,4 +77,4 @@ class Aluno1{
 var objAluno = new Aluno1();
 objAluno.setNome("Miguel");
 objAluno.setRa("12345");
-    
+alert('nome=${objAluno.getNome()} ra=${objAluno.getRa()}');
