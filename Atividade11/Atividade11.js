@@ -88,3 +88,38 @@ class AlunoADS1 extends Aluno1{
     getNumlab(){
         return this._numlab;}
 }
+
+var objAlunoADS = new AlunoADS1();
+objAlunoADS.setNome("Otavio");
+objAlunoADS.setRa("1234556");
+objAlunoADS.setNumlab(6);
+alert('nome=${objAlunoADS.getNome()} ra=${objAlunoADS.getRa()} numlab=${objAlunoADS.getNumlab()});
+
+      var obj1 = new Object();
+      var obj2 = obj1;
+      obj1.nome = "Camila";
+alert(obj2.nome);
+class ContaBancaria{
+    #cpf;
+    constructor(nome, saldoInicial){
+        this.nome = nome;
+        this.saldo = saldoInicial;
+    }
+     setCpf(value){
+         this.cpf = value;}
+    getCpf(){
+        return this.cpf;}
+    getSaldo(){
+        return this.saldo;}
+    depositar(value){
+        this.saldo += valor;
+        this.#registrarTransacao(valor);
+    }
+    #registrarTransacao(valor){
+        console.log('Deposito de R$ ${valor}
+        realizado pelo ${this.nome} e o saldo R$ ${this.saldo} para cpf ${this.getCpf()} ou ${this.#cpf}');
+    }
+}
+const conta = new ContaBancaria("Gustavo", 1000);
+conta.setCpf(123);
+conta.depositar(500);
