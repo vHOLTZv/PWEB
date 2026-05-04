@@ -44,3 +44,37 @@ aluno6.setNome("Lana");
 aluno6.setRa("234");
 alert("ra= " + aluno6.getRa() + " nome= " + aluno6.getNome());
 
+function AlunoADS(){
+    var numlab;
+    this.setnumlab = function(value){
+        this.numlab = value;}
+    this.getnumlab = function(){
+        return this.numlab;}
+}
+
+AlunoADS.prototype = new Aluno2();
+//herança
+var aluno7 = new AlunoADS();
+aluno7.setnome("Murilo");
+aluno7.setra("213");
+aluno7.setnumlab(5);
+alert("Aluno " + aluno7.getnome() + " de RA " aluno7.getra() + " utiliza a sala " aluno7.getnumlab);
+
+
+class Aluno1{
+    constructor(){
+        this._ra;
+        this._nome;}
+    setNome(value){
+        this._nome = value;}
+    getNome(){
+        return this._nome;}
+    setRa(value){
+        this._ra = value;}
+    getRa(){
+        return this._ra;}
+}
+var objAluno = new Aluno1();
+objAluno.setNome("Miguel");
+objAluno.setRa("12345");
+    
