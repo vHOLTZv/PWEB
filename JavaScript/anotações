@@ -58,3 +58,28 @@ v[3] <- v[1]
 v[v[3]] <- v[v[2]]
 
 6 3 6 7 2 6 1 5
+
+reverse (inverte a ordem)
+sort (ordem ascendente da tabela UniCode (ASCII extendida) - 0, 1, 10, 15, 2, 5
+|_ aux.sort(function(a,b){return a-b};
+    return aux; // 
+
+exercicio
+
+let alunos=["Viviane","Andre","Helio","Denise","Junior","Leonardo","Jose","Nelma","Pedro"]
+let total = 0
+alunos.pop();// remove o ultimo item do array
+for(i = 0; i<=alunos.length -1; i++){
+total = total + alunos[i].length;}
+document.write("o total é: " + total);
+
+
+7+5+5+6+6+8+4+5=46
+
+foreach() - faça para cada item -> tem como fazer separado
+
+
+
+
+
+
