@@ -123,3 +123,12 @@ class ContaBancaria{
 const conta = new ContaBancaria("Gustavo", 1000);
 conta.setCpf(123);
 conta.depositar(500);
+
+
+const arr = [
+    ['codigo', 1], ['nome', "Joao"], ['idade', 23] 
+    ];
+const obj = Object.fromEntries(arr);
+alert(obj);
+alert(obj.nome);
+alert(JSON.stringify(obj));
