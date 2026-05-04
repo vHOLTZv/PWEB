@@ -132,3 +132,15 @@ const obj = Object.fromEntries(arr);
 alert(obj);
 alert(obj.nome);
 alert(JSON.stringify(obj));
+
+const objNovaEmpresa = {
+    empresa: 'ZF do Brasil'};
+const objVeiculo = {
+    placa: 'xxx 1234'};
+const motorista = Object.assign({
+    cpf: "123"}, objNovaEmpresa, objVeiuclo);
+console.log(motorista);
+const funcionario = Object.create(objNovaEmpresa,{ nome: { value: 'Jorge'}, endereco: {value: 'av Sao Paulo'}});
+console.log(funcionario.empresa);
+console.log(funcionario.nome);
+console.log(funcionario.endereco);
