@@ -78,3 +78,13 @@ var objAluno = new Aluno1();
 objAluno.setNome("Miguel");
 objAluno.setRa("12345");
 alert('nome=${objAluno.getNome()} ra=${objAluno.getRa()}');
+
+class AlunoADS1 extends Aluno1{
+    constructor(){
+        super();
+        this._numlab}
+    setNumlab(value){
+        this._numlab = value;}
+    getNumlab(){
+        return this._numlab;}
+}
